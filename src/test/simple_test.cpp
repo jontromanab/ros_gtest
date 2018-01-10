@@ -13,7 +13,7 @@ TEST(NumberCmpTest, ShouldPass){
 TEST(NumberCmpTest, ShouldFail){
   EXPECT_EQ(INT_MAX, add(INT_MAX,1));
 }
-
+//talker test
 TEST(RtTest, TalkerFunction){
   RosTalker rt;
   EXPECT_EQ(3, rt.add(1,2));
